@@ -1,6 +1,6 @@
 # update-summarization
 
-Autoencoder model for update text summarization as described in **Carichon. F, Fettu, F, et al. (2022) - Unsupervised Update Summarization of News Events.** 
+Autoencoder model for update text summarization as described in *Carichon F, Fettu F, et al. (2022) - Unsupervised Update Summarization of News Events.* 
 
 ## Description
 
