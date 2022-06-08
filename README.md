@@ -1,6 +1,6 @@
 # update-summarization
 
-Autoencoder model for update text summarization as described in Carichon. F, Fettu, F, et al. (2022) - Unsupervised Update Summarization of News Events. 
+Autoencoder model for update text summarization as described in **Carichon. F, Fettu, F, et al. (2022) - Unsupervised Update Summarization of News Events.** 
 
 ## Description
 
@@ -17,7 +17,7 @@ Run the requirements.txt to install all necessary libraries
 2. To train the model : <br>
 &nbsp;&nbsp;a. Set the train_model variable to True <br>
 &nbsp;&nbsp;b. Input a run_name (str) to record all results and model
-3. To generate summaries and metrics, the variable `generate` must be set to True in configs/config.py
+3. To generate summaries and metrics, the variable `generate` must be set to True
 
 
 ## Dependency Management & Reproducibility
