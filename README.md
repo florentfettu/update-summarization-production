@@ -15,8 +15,8 @@ Run the requirements.txt to install all necessary libraries
 
 1. All parameters of the model can be modified in the "configs/config.py" file.
 2. To train the model : <br>
-&nbsp;a. Set the train_model variable to True
-&nbsp;b. Input a run_name (str) to record all results and model
+&nbsp;&nbsp;a. Set the train_model variable to True <br>
+&nbsp;&nbsp;b. Input a run_name (str) to record all results and model
 3. To generate summaries and metrics, the variable generate must be set to True
 
 
