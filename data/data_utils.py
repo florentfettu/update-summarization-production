@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
+sys.path.append("configs")
+import config
 
 def flatten_list(list_to_flatten):
     """transform list of list into flat list
@@ -35,6 +37,15 @@ class tifdf_model():
         Output : tfidf matrix for the input document, dictionnary word to column position in matrix
         """
         
+        path = f"{os.getcwd()}/experiments/model_save/{config.runs['run_name']}"
+
+        # Check whether the specified path exists or not
+        isExist = os.path.exists(path)
+
+        if not isExist:
+            # Create a new directory because it does not exist 
+            os.makedirs(path)
+
         #No options here because pre-processing made before providing input list
         vectorizer = TfidfVectorizer(tokenizer=self.tokenize, min_df=min_freq)
         
