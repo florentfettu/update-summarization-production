@@ -1,0 +1,9 @@
+pandas==1.2.4 
+numpy==1.20.2
+torch==1.8.0
+scikit-learn==0.24.2 
+optuna==2.9.1
+tensorboard==2.5.0
+rouge-score==0.0.4
+spacy==3.0.6 
+nltk==3.6.4
