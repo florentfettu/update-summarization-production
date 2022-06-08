@@ -33,9 +33,7 @@ To complete
 ├── data                    <- Data specifics.
 │   ├── embeddings          <- Storing pretrained embeddings models -- Glove.
 │   ├── files               <- Train/valid/Test data of TREC 2013/2014/2015 as in paper.
-│   ├── vectorizers         <- Storing pretrained tfidf/information contraint model.
-├── experiments             <- Trained and serialized models, model predictions,
-│                              run metrics, or model summaries.
+├── experiments             <- Trained and serialized models, model predictions, run metrics, or model summaries.
 │   ├── data_results        <- Storing generated summaries and metrics.
 │   ├── model_save          <- Storing pretrained save model after training.
 ├── models                  <- Unsupervised Update Autoencoder for summarization.
